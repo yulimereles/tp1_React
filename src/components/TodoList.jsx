@@ -12,7 +12,7 @@ export const ToDoList = ({ todoList, setTodoList }) => {
 
         setTodoList(todos);
     };
-    // Lógica para completar un todo
+
 
     useEffect(() => {
         console.log('El estado de todoList ha cambiado:', todoList);
